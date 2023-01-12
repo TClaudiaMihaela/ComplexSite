@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+  }
+
+  .container li  {
+    list-style: none;
+  }
+
+  .container li a {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .container li a:hover {
+    color: #5a609a ;
+  }
+
+.container .fa {
+    margin-right: 8px ;
+  }
+  
+.first-section {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 18px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #cf5739;
+    color: white;
+    padding: 12px 20px;
+    border: 0.5px transparent;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #c35337;
+  }
+
+  .container {
+    height: 100%;
+    border-radius: 5px;
+    background:linear-gradient(#e66465, #5a609a);
+    padding: 10px;
+  } 
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .submit {
+    background-color: #e66465;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 400px) {
+
+    .column, input[type=submit] {
+      width: 60%;
+      margin-top: 0;
+    }
+    .column {
+        align-content: center;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+  }

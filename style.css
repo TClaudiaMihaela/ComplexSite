@@ -1,0 +1,141 @@
+@import "contact.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-image: url(img/leone-venter-VieM9BdZKFo-unsplash.jpg);
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.menu-bar {
+  background: rgb(124, 23, 15);
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: white;
+  font-size: 15px;
+}
+
+.menu-bar li {
+  padding: 15px;
+  margin: 10px;
+}
+
+.menu-bar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.active, .menu-bar li a:hover  {
+  background-color: rgb(192, 29, 18);
+  border-radius: 3px;
+}
+
+.menu-bar .fa {
+  margin-right: 6px ;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.menu-bar li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background: rgb(124, 23, 15);
+  margin-top: 15px ;
+  margin-left: -15px;
+}
+
+.menu-bar li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar li:hover .sub-menu ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar li:hover .sub-menu ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar li:hover .sub-menu ul li a:hov {
+  color:rgb(124, 23, 15);
+}
+
+.fa-angle-right {
+  margin-left:20px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.hover-me:hover .sub-menu-1 {
+  position: absolute;
+  display: block;
+  background:rgb(124, 23, 15);
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+.menu-bar li:hover .sub-menu ul li .sub-menu-right {
+  text-align: right;
+ }
+
+
+@media (min-width: 400px) {
+  .menu-bar ul {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 680px) {
+  
+  .menu-bar ul {
+    font-size: 22px;
+  }
+  
+  .menu-bar li {
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  .menu-bar li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .menu-bar li:hover .sub-menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  }
+  
+  .hover-me:hover .sub-menu-1 {
+    margin-top: -40px;
+    margin-left: 120px;
+   
+  }
+}
