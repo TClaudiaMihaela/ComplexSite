@@ -1,5 +1,5 @@
  window.onload = () => {
-    fetch('https://tclaudiamihaela.github.io/ComplexSite/navbar/nav.html', 
+    fetch('https://tclaudiamihaela.github.io/ComplexSite/navbar/nav.js', 
     {
       method: "GET", 
       mode: 'cors',

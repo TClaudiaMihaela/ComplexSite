@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.container{
+.container {
     height: 100vh;
 }
 
@@ -33,7 +33,7 @@ p {
     font-size: 15px;
 }
 
- .input-wrapper{
+ .input-wrapper {
    display: grid;
    text-align: center;
  }

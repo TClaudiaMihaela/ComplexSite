@@ -46,7 +46,7 @@ table, th, td {
     font-weight: bold;
    }
 
- .image{
+ .image {
     height: 50%;
     width: 50%;
  }
@@ -71,7 +71,7 @@ table, th, td {
 
    
    @media (min-width:43  0px) {
-    .image{
+    .image {
         height: 40%;
         width: 40%;
      }
@@ -98,7 +98,7 @@ table, th, td {
    }
 
    @media (min-width:950px) {
-    .image{
+    .image {
         height: 35%;
         width: 35%;
      }
@@ -124,7 +124,7 @@ table, th, td {
    }
    
    @media (min-width:1240px) {
-    .image{
+    .image {
         height: 20%;
         width: 20%;
      }
