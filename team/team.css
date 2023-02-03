@@ -11,7 +11,7 @@
 
 p {
     font-size: 30px;
-    color: rgb(14, 1, 26);
+    color: #fff;
     text-align: center;
     padding-top: 20px;
     font-style: italic;
@@ -36,7 +36,7 @@ p {
 
 .container {
     min-height: 100vh;
-    background:linear-gradient( rgb(114, 12, 114),violet);
+    background:linear-gradient( #4C3B3E,#BB928B);
 }
 
 .img-team {

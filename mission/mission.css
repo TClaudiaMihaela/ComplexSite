@@ -6,7 +6,7 @@ html, body {
 
 .container {
     height: 130%;
-    background: linear-gradient(#e6955b ,#9f6d49);
+    background: linear-gradient(#988C93 ,#4C3B3E);
 }
 
 .container li a {
@@ -34,16 +34,17 @@ h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight:bolder;
     font-style: italic;
-    color: #6f4e37;
+    color: #C1C2CD;
 }
 
  p {
     margin: 20px;
     display: inline-block;
-    text-align: center;
-    color: #825c41;
+    text-align:center;
+    font-weight: bolder;
+    color: #C1C2CD;
  }
 
  .paragraph2 {
@@ -83,6 +84,7 @@ h2 {
     filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
     width: 300px;
     height: 25px;
+    margin-top: -100px;
 }
 
 .menu-bar ul {
