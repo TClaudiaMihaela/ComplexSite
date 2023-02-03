@@ -6,7 +6,7 @@ body {
 }
 
 .menu-bar {
-  background: rgb(124, 23, 15);
+  background: #50393C;
   text-align: center;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .active, .menu-bar li a:hover  {
-  background-color: rgb(192, 29, 18);
+  background-color: #7C5956;
   border-radius: 3px;
 }
 
@@ -44,7 +44,7 @@ body {
 .menu-bar li:hover .sub-menu {
   display: block;
   position: absolute;
-  background: rgb(124, 23, 15);
+  background: 7C5956;
   margin-top: 15px ;
   margin-left: -15px;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .menu-bar li:hover .sub-menu ul li a:hov {
-  color:rgb(124, 23, 15);
+  color:#7C5956;
 }
 
 .fa-angle-right {
@@ -82,7 +82,7 @@ body {
 .hover-me:hover .sub-menu-1 {
   position: absolute;
   display: block;
-  background:rgb(124, 23, 15);
+  background:#7C5956;
   margin-top: 20px;
   margin-left: -30px;
 }
