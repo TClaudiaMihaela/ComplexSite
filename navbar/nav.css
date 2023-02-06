@@ -10,7 +10,11 @@ body {
 }
 
 .menu-bar {
+<<<<<<< HEAD
   background: #4C3B3E;
+=======
+  background: #50393C;
+>>>>>>> ce3b7e9f8c280d698336e6ac2f81ce9650d9621a
   text-align: center;
 }
 
@@ -33,8 +37,13 @@ body {
 }
 
 .active, .menu-bar li a:hover  {
+<<<<<<< HEAD
   background-color: #8C655F;
   border-radius: 60px;
+=======
+  background-color: #7C5956;
+  border-radius: 3px;
+>>>>>>> ce3b7e9f8c280d698336e6ac2f81ce9650d9621a
 }
 
 .menu-bar .fa {
@@ -48,8 +57,12 @@ body {
 .menu-bar li:hover .sub-menu {
   display: block;
   position: absolute;
+<<<<<<< HEAD
   background-color: #8C655F;
   border-radius: 10px;
+=======
+  background: 7C5956;
+>>>>>>> ce3b7e9f8c280d698336e6ac2f81ce9650d9621a
   margin-top: 15px ;
   margin-left: -25px;
 }
@@ -72,8 +85,13 @@ body {
   border-bottom: none;
 }
 
+<<<<<<< HEAD
 .menu-bar li:hover .sub-menu ul li a:hover {
   color:#8C655F;
+=======
+.menu-bar li:hover .sub-menu ul li a:hov {
+  color:#7C5956;
+>>>>>>> ce3b7e9f8c280d698336e6ac2f81ce9650d9621a
 }
 
 .fa-angle-right {
@@ -88,7 +106,11 @@ body {
 .hover-me:hover .sub-menu-1 {
   position: absolute;
   display: block;
+<<<<<<< HEAD
   background:#8C655F;
+=======
+  background:#7C5956;
+>>>>>>> ce3b7e9f8c280d698336e6ac2f81ce9650d9621a
   margin-top: 20px;
   margin-left: -30px;
 }
