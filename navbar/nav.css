@@ -11,7 +11,6 @@ body {
 
 .menu-bar {
   background: #4C3B3E;
-  background: #50393C;
   text-align: center;
 }
 
@@ -36,8 +35,6 @@ body {
 .active, .menu-bar li a:hover  {
   background-color: #8C655F;
   border-radius: 60px;
-  background-color: #7C5956;
-  border-radius: 3px;
 }
 
 .menu-bar .fa {
@@ -53,7 +50,6 @@ body {
   position: absolute;
   background-color: #8C655F;
   border-radius: 10px;
-  background: 7C5956;
   margin-top: 15px ;
   margin-left: -25px;
 }
@@ -78,8 +74,6 @@ body {
 
 .menu-bar li:hover .sub-menu ul li a:hover {
   color:#8C655F;
-.menu-bar li:hover .sub-menu ul li a:hov {
-  color:#7C5956;
 }
 
 .fa-angle-right {
@@ -95,7 +89,6 @@ body {
   position: absolute;
   display: block;
   background:#8C655F;
-  background:#7C5956;
   margin-top: 20px;
   margin-left: -30px;
 }
